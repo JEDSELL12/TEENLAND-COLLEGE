@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Departments Topics
+    </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        '' header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+
+        section {
+            background-color: white;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        ul {
+            color: #555;
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>School Departments and Their Topics
+        </h1>
+    </header>
+
+    <div class="container">
+        <!-- Class Department -->
+        <section>
+            <h2>Class Department
+            </h2>
+            <p>Topic: Understanding the Basics of Classroom Behavior
+            </p>
+            <ul>
+                <li>Classroom Etiquette: How students should behave in class.
+                </li>
+                <li>Active Participation: Encouraging students to participate in discussions.
+                </li>
+                <li>Respect for Teachers and Peers: Building a respectful learning environment.
+                </li>
+            </ul>
+        </section>
+
+        <!-- Science Department -->
+        <section>
+            <h2>Science Department
+            </h2>
+            <p>Topic: The Water Cycle and its Importance
+            </p>
+            <ul>
+                <li>Evaporation: The process of water turning into vapor.
+                </li>
+                <li>Condensation: How vapor turns back into water droplets.
+                </li>
+                <li>Precipitation: Rain, snow, and other forms of precipitation.
+                </li>
+                <li>Collection: How water is stored in bodies of water like rivers and lakes.
+                </li>
+            </ul>
+        </section>
+
+        <!-- Art Department -->
+        <section>
+            <h2>Art Department
+            </h2>
+            <p>Topic: The Impact of Abstract Art on Modern Culture
+            </p>
+            <ul>
+                <li>Breaking Traditional Boundaries: Abstract art's challenge to realism.
+                </li>
+                <li>Prominent Artists: Key figures like Wassily Kandinsky and Jackson Pollock.
+                </li>
+                <li>The Emotional Power of Color and Form: How abstract art expresses emotions.
+                </li>
+                <li>Influence on Modern Design: Abstract art's influence on architecture and fashion.
+                </li>
+            </ul>
+        </section>
+
+        <!-- Commercial Department -->
+        <section>
+            <h2>Commercial Department
+            </h2>
+            <p>Topic: The Role of Digital Marketing in Modern Business
+            </p>
+            <ul>
+                <li>Social Media Marketing: Using platforms like Instagram and Facebook to promote products.
+                </li>
+                <li>SEO (Search Engine Optimization): Improving visibility on search engines like Google.
+                </li>
+                <li>Email Campaigns: Building relationships with customers through personalized emails.
+                </li>
+                <li>Content Marketing: Creating valuable content to attract and engage customers.
+                </li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <h6>&#169 group1
+        </h6>
+    </footer>
+
+</body>
+
+</html>
