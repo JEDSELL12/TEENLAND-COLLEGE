@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Teenland College</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body and General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1e2e2;
+            /* Light wine background */
+            color: #5c3b3b;
+            /* Dark wine text */
+            line-height: 1.6;
+        }
+
+        /* Header Section */
+        header {
+            background-color: #800000;
+            /* Dark wine */
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header .logo h1 {
+            font-size: 32px;
+            font-weight: bold;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        nav ul li a:hover {
+            color: #d97a7a;
+            /* Light wine on hover */
+        }
+
+        /* Contact Section */
+        .contact {
+            background-color: #f9d3d3;
+            /* Light wine pink */
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .contact .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .contact h2 {
+            font-size: 36px;
+            color: #800000;
+            /* Dark wine */
+            margin-bottom: 20px;
+        }
+
+        .contact p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 40px;
+        }
+
+        .contact-info div {
+            width: 45%;
+        }
+
+        .contact-info h3 {
+            font-size: 24px;
+            color: #800000;
+            /* Dark wine */
+            margin-bottom: 10px;
+        }
+
+        .contact-info p {
+            font-size: 18px;
+        }
+
+        .contact-info a {
+            color: #800000;
+            /* Dark wine */
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            color: #d97a7a;
+            /* Light wine on hover */
+        }
+
+        .contact-form {
+            margin-top: 40px;
+        }
+
+        .contact-form label {
+            font-size: 18px;
+            margin-top: 10px;
+            display: block;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 12px;
+            margin: 8px 0;
+            border: 2px solid #d97a7a;
+            /* Light wine border */
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        .contact-form button {
+            background-color: #800000;
+            /* Dark wine */
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .contact-form button:hover {
+            background-color: #d97a7a;
+            /* Light wine on hover */
+        }
+
+        /* Footer Section */
+        footer {
+            background-color: #800000;
+            /* Dark wine */
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: #d97a7a;
+            /* Light wine */
+        }
+
+        footer p {
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <h1>Teenland College</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="About us.html">About Us</a></li>
+                <li><a href="Admissions.html">Admissions</a></li>
+                <li><a href="contact us.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <div class="container">
+            <h2>Contact Teenland College</h2>
+            <p>We would love to hear from you! Whether you have questions about our programs, admissions, or any other
+                inquiries, feel free to reach out to us.</p>
+
+            <div class="contact-info">
+                <div class="address">
+                    <h3>Our Address</h3>
+                    <p>3 Bosun Anifowoshe Street, off Ogudu Road, Ojota, Lagos.</p>
+                </div>
+                <div class="phone-email">
+                    <h3>Phone & Email</h3>
+                    <p><strong>Phone:</strong> 08038007106, 08023305298.</p>
+                    <p><strong>Email:</strong> <a href="mailto:www.childlandschools.com">www.childlandschools.com</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <h3>Send Us a Message</h3>
+                <form action="#" method="POST">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2024 Teenland College. All Rights Reserved.</p>
+            <p>Follow Us: <a href="#">Instagram</a> | <a href="#">Facebook</a> | <a href="#">Twitter</a></p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

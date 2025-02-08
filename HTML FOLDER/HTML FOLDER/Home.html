@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teenland College</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body and General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+
+        /* Header Section */
+        header {
+            background-color: #800000;
+            /* Dark Wine */
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header .logo h1 {
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        nav ul li a:hover {
+            color: #D97A7A;
+            /* Lighter Wine */
+        }
+
+        /* Hero Section */
+        .hero {
+            background-color: #800000;
+            /* Dark Wine */
+            background-image: url('hero-image.jpg');
+            /* Replace with your hero image */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+
+        .hero-content h2 {
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+
+        .hero-content p {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+
+        .cta-btn {
+            background-color: #D97A7A;
+            /* Lighter Wine */
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        .cta-btn:hover {
+            background-color: #800000;
+            /* Dark Wine */
+        }
+
+        /* About Section */
+        .about {
+            background-color: #f0d1d1;
+            /* Light Wine */
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .about h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .about p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        .about .cta-btn {
+            background-color: #800000;
+            /* Dark Wine */
+        }
+
+        /* Programs Section */
+        .programs {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .programs h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .programs-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+        }
+
+        .program {
+            background-color: #f4f4f4;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .program h3 {
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+
+        .program p {
+            font-size: 16px;
+        }
+
+        .programs .cta-btn {
+            background-color: #D97A7A;
+            /* Lighter Wine */
+        }
+
+        /* Student Life Section */
+        .student-life {
+            background-color: #f0d1d1;
+            /* Light Wine */
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .student-life h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .student-life p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        .student-life .cta-btn {
+            background-color: #800000;
+            /* Dark Wine */
+        }
+
+        /* Testimonials Section */
+        .testimonials {
+            background-color: #800000;
+            /* Dark Wine */
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .testimonials h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .testimonial {
+            margin-bottom: 30px;
+        }
+
+        .testimonial p {
+            font-size: 18px;
+        }
+
+        .author {
+            font-size: 16px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        /* Footer Section */
+        footer {
+            background-color: #800000;
+            /* Dark Wine */
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: #D97A7A;
+            /* Lighter Wine */
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <h1>Teenland College</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="About us.html">About Us</a></li>
+                <li><a href="Admissions.html">Admissions</a></li>
+                <li><a href="contact us.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Discover Your Potential at Teenland College</h2>
+            <p>Empowering students to achieve greatness through education and community.</p>
+            <a href="#" class="cta-btn">Apply Now</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Teenland College offers a nurturing environment focused on academic excellence and personal growth. Our
+                diverse programs prepare students for the future.</p>
+            <a href="#" class="cta-btn">Learn More</a>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section class="programs">
+        <div class="container">
+            <h2>Our Programs</h2>
+            <div class="programs-grid">
+                <div class="program">
+                    <h3>Business</h3>
+                    <p> marketing, and entrepreneurship classes.</p>
+                </div>
+                <div class="program">
+                    <h3>Science</h3>
+                    <p>Exploration of biology, chemistry, and environmental science.</p>
+                </div>
+                <div class="program">
+                    <h3>Engineering</h3>
+                    <p>Engineering principles and hands-on learning experiences.</p>
+                </div>
+                <div class="program">
+                    <h3>Arts</h3>
+                    <p>Cultivate creativity through our visual and performing arts programs.</p>
+                </div>
+            </div>
+            <a href="#" class="cta-btn">View All Programs</a>
+        </div>
+    </section>
+
+    <!-- Student Life Section -->
+    <section class="student-life">
+        <div class="container">
+            <h2>Student Life</h2>
+            <p>Get involved in clubs, sports, and other activities that enrich your college experience.</p>
+            <a href="#" class="cta-btn">Join Our Community</a>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2>What Our Students Say</h2>
+            <div class="testimonial">
+                <p>"Teenland College provided me with the tools and support to excel. The community here is amazing!"
+                </p>
+                <p class="author">- Emma, Class of 2024</p>
+            </div>
+            <div class="testimonial">
+                <p>"I’ve grown not only academically but personally. The college truly values student development."</p>
+                <p class="author">- Alex, Class of 2025</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2024 Teenland College | All Rights Reserved</p>
+            <p>Follow Us: <a href="#">Instagram</a> | <a href="#">Facebook</a> | <a href="#">Twitter</a></p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
